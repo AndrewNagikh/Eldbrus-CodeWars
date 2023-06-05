@@ -1,0 +1,25 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:hard": "npx jest hard/hard.test.js",
+    "test:meduim": "npx jest medium/medium.test.js",
+    "test:easy": "npx jest easy/easy.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewNagikh/Eldbrus-CodeWars.git"
+  },
+  "author": "Andrew Nagikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewNagikh/Eldbrus-CodeWars/issues"
+  },
+  "homepage": "https://github.com/AndrewNagikh/Eldbrus-CodeWars#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jest": "^29.5.0"
+  }
+}
