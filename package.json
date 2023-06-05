@@ -6,7 +6,8 @@
   "scripts": {
     "test:hard": "npx jest hard/hard.test.js",
     "test:meduim": "npx jest medium/medium.test.js",
-    "test:easy": "npx jest easy/easy.test.js"
+    "test:easy": "npx jest easy/easy.test.js",
+    "test:all": "npx jest easy/easy.test.js && npx jest medium/medium.test.js && npx jest hard/hard.test.js"
   },
   "repository": {
     "type": "git",
